@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -14,5 +15,16 @@ public class MainMenu : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void PlayButton()
+    {
+        SceneManager.LoadScene("Shooter game for beginners");
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+        Debug.Log("Game has quit");
     }
 }

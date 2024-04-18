@@ -1,10 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
     public int health = 3;
+   
+    private void Start()
+    {
+       
+    }
 
     void Update()
     {
@@ -13,5 +19,6 @@ public class Enemy : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
     }
 }
