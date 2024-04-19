@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shooter game for beginners.unity
     guid: 6c3f954e4e55fa8478a71d1a6a9af000
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 43b4d5d39915bcd48a6fb7584c8042f7
   m_configObjects: {}

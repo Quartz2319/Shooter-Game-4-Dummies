@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 1737102539967251520, guid: 6c543ef4f5e20084f81cb698cbddbafc, type: 3}
-  ChaseSpeed: 4
+  ChaseSpeed: 6
 --- !u!114 &-8720663015817987759
 MonoBehaviour:
   m_ObjectHideFlags: 0
